@@ -15,7 +15,7 @@ POOL_SIZE = 2
 HIDDEN_UNITS = 100
 DROPOUT_RATE = 0.5
 LEARNING_RATE = 0.001
-EPOCHS = 10
+EPOCHS = 30
 BATCH_SIZE = 32
 
 # Paths (provide your file paths here)
