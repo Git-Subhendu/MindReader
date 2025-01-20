@@ -1,33 +1,6 @@
-# EmotionFlow
+# MindReader
 
 This repository contains the code and data for an emotion detection project using deep learning models and Sentence-BERT embeddings.
-
-## Repository Structure
-
-```
-.
-├── data
-│   ├── emotion-emotion_69k.csv      # Raw dataset
-│   ├── preprocessed_data.csv      # Preprocessed dataset
-│   ├── X_train_embeddings.npy     # Sentence-BERT embeddings for training data
-│   ├── X_val_embeddings.npy       # Sentence-BERT embeddings for validation data
-│   ├── X_test_embeddings.npy      # Sentence-BERT embeddings for test data
-│   ├── y_train.npy                # Training labels
-│   ├── y_val.npy                  # Validation labels
-│   ├── y_test.npy                 # Test labels
-│   └── label_encoder_classes.npy  # Label encoder classes
-├── models
-│   ├── CNN_GRU.pkl                # Trained CNN-GRU model
-│   ├── CNN_BiGRU.pkl              # Trained CNN-BiGRU model
-│   ├── CNN_LSTM.pkl               # Trained CNN-LSTM model
-│   └── CNN_BiLSTM.pkl             # Trained CNN-BiLSTM model
-├── scripts
-│   ├── preprocess.py              # Script for data preprocessing
-│   ├── train.py                   # Script for training models
-│   └── evaluate.py                # Script for model evaluation
-├── app.py                         # Streamlit app for emotion detection
-└── README.md                      # Project documentation
-```
 
 ## Project Description
 
@@ -56,8 +29,8 @@ Follow these steps to set up the project and run the code.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Khushdeep-22102/EmotionFlow.git
-   cd EmotionFlow
+   git clone https://github.com/Khushdeep-22102/MindReader.git
+   cd MindReader
    ```
 
 2. Install required dependencies:
