@@ -15,14 +15,14 @@ POOL_SIZE = 2
 HIDDEN_UNITS = 100
 DROPOUT_RATE = 0.5
 LEARNING_RATE = 0.001
-EPOCHS = 30
+EPOCHS = 10
 BATCH_SIZE = 32
 
 # Paths (provide your file paths here)
 EMBEDDINGS_TRAIN_PATH = "data\X_train_embeddings.npy"
 EMBEDDINGS_VAL_PATH = "data\X_val_embeddings.npy"
 EMBEDDINGS_TEST_PATH = "data\X_test_embeddings.npy"
-DATASET_PATH = "data\preprocessed_data.csv"
+DATASET_PATH = "data\preprocessed_emotion_data.csv"
 MODELS_PATH = "models"  # Directory where models will be saved
 
 # Create models directory if it doesn't exist
