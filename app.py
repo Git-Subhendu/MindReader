@@ -86,7 +86,7 @@ def predict_emotion(text, model):
     return predicted_emotion
 
 # Streamlit interface
-st.title("Emotion Detection from Text")
+st.title("MindReader")
 st.write("Select a model, enter a sentence, and see the predicted emotion along with the metrics.")
 
 # Choose model
