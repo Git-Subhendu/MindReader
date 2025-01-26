@@ -29,7 +29,7 @@ Follow these steps to set up the project and run the code.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Khushdeep-22102/MindReader.git
+   git clone https://github.com/Git-Subhendu/MindReader.git
    cd MindReader
    ```
 
